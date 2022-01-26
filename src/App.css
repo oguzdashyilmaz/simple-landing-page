@@ -2,6 +2,12 @@ html {
   background-color: #E6E6E6;
 }
 
+.contact {
+  background-color: rgb(66, 189, 62);
+  height: fit-content;
+  width: 100vw;
+}
+
 .flex-row {
   display: flex;
   flex-direction: row;
@@ -38,4 +44,18 @@ html {
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+label {
+  margin: 1rem;
+}
+
+input {
+  border: none;
+  color: #666;
+  border-bottom: 2px solid #666;
+}
+
+.input-box {
+  background-color: rgb(51, 179, 179);
 }

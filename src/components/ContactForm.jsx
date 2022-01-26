@@ -5,23 +5,23 @@ import { ReactDOM } from 'react';
 function ContactForm() {
     return (
         <form>
-            <div className="row">
+            <div className="flex-row">
                 <label>
-                    Name
-                    <input type="text" name="name" />
+                    Name<br/>
+                    <input type="text" name="name" className='input-box'/>
                 </label>
                 <label>
-                    Email
+                    Email<br/>
                     <input type="text" name="email" />
                 </label>
             </div>
             <div className="flex-col">
                 <label>
-                    Timeline
+                    Timeline<br/>
                     <input type="text" name="timeline" />
                 </label>
                 <label>
-                    Message
+                    Message<br/><br/>
                     <input type="text" name="message" />
                 </label>
             </div>
