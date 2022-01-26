@@ -8,19 +8,19 @@ function App() {
         <Image />
         <Text />
       </div>
-      <div className="row">
+      <div className="row flex-row">
         <Text />
         <Image />
       </div>
-      <div className="row">
+      <div className="row flex-row">
         <Image />
         <Text />
       </div>
-      <div className="row">
+      <div className="row flex-row">
         <Text />
         <Image />
       </div>
-      <div className="row">
+      <div className="row flex-row">
         <Image />
         <Text />
       </div>
