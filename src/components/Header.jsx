@@ -3,7 +3,7 @@ import React from 'react';
 function Header() {
     return (
         <div className='text-center'>
-            <h5>Welcome to</h5>
+            <p>Welcome to</p>
             <h1>Welcome to Camp Chippewa</h1>
         </div>
     );
