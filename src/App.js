@@ -6,24 +6,24 @@ import Header from './components/Header';
 function App() {
   return (
     <div className="App">
-      <Header/>
-      <div className="row flex-row">
+      <Header />
+      <div className="row flex-row align-center">
         <Image />
         <Text />
       </div>
-      <div className="row flex-row">
+      <div className="row flex-row align-center">
         <Text />
         <Image />
       </div>
-      <div className="row flex-row">
+      <div className="row flex-row align-center">
         <Image />
         <Text />
       </div>
-      <div className="row flex-row">
+      <div className="row flex-row align-center">
         <Text />
         <Image />
       </div>
-      <div className="row flex-row">
+      <div className="row flex-row align-center">
         <Image />
         <Text />
       </div>
