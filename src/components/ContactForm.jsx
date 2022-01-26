@@ -1,10 +1,8 @@
 import React from 'react';
-import { ReactDOM } from 'react';
-
 
 function ContactForm() {
     return (
-        <form>
+        <form className='justify-center'>
             <div className="flex-row bg-color__contactform">
                 <label>
                     Name<br/>
@@ -15,7 +13,7 @@ function ContactForm() {
                     <input type="text" name="email" className='input-box'/>
                 </label>
             </div>
-            <div className="flex-col">
+            <div className="flex-col bg-color__contactform">
                 <label>
                     Timeline<br/>
                     <input type="text" name="timeline" className='input-box'/>
@@ -24,8 +22,8 @@ function ContactForm() {
                     Message<br/><br/>
                     <input type="text" name="message" className='input-box'/>
                 </label>
+                <input type="submit" value="Send" className='text-right input-box'/>
             </div>
-            <input type="submit" value="Send" className='text-right input-box'/>
         </form>
     )
 }
