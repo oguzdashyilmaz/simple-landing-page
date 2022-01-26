@@ -6,9 +6,17 @@ html {
   display: flex;
   flex-direction: row;
 }
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
 
 .text-center {
   text-align: center;
+}
+
+.text-right {
+  text-align: right;
 }
 
 .align-center {

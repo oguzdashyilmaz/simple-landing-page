@@ -3,6 +3,7 @@ import Text from './components/Text';
 import Image from './components/Image';
 import Header from './components/Header';
 import Footer from './components/Footer';
+import Contact from './components/Contact';
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
           <Text />
         </div>
       </div>
+      <Contact/>
       <Footer/>
     </div>
   );
